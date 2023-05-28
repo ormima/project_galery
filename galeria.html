@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="./styl2.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Galeria obrazów</h1>
+        </header>
+        <main>
+            <section class="left">
+                <img src="./zdjecie.jpg" alt="zdjęcie dnia">
+                <h3>Zdjęcia opublikowali</h3>
+                <table>
+                    <tr>
+                        <td>Anna Porada</td>
+                        <td>10 zdjęć</td>
+                    </tr>
+                    <tr>
+                        <td>Krzysztof Wasilewski</td>
+                        <td>12 zdjęć</td>
+                    </tr>
+                    <tr>
+                        <td>Monika Kowalska</td>
+                        <td>4 zdjęcia</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="right">
+                <button id="prev">prev</button>
+                <!-- script res1 -->
+                <img src="./1.jpg" alt="galeria" id="foto" class="foto">
+                <button id="next">next</button>
+                <!-- script res2 -->
+                <hr>
+                <img src="./1.jpg" alt="miniatura" class="mini">
+                <img src="./2.jpg" alt="miniatura" class="mini">
+                <img src="./3.jpg" alt="miniatura" class="mini">
+                <img src="./4.jpg" alt="miniatura" class="mini">
+                <img src="./5.jpg" alt="miniatura" class="mini">
+            </section>
+        </main>
+        <small>
+            <a href="https://pixabay.com" target="blank">Więcej obrazów</a>
+            <p>Galerię wykonał: <i>000</i></p>
+        </small>
+    </div>
+
+    <!-- script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>

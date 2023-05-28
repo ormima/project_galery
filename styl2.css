@@ -1,0 +1,56 @@
+*{
+    font-family: Garamond;
+    background-color: mistyrose;
+    color: rgb(62, 39, 35);
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    margin: 30px;
+    box-shadow: 15px 15px 10px dimgray;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.left > img{
+    width: 100%;
+}
+.right{
+    width: 65%;
+    height: 100%;
+}
+.mini{
+    width: 140px;
+    padding: 2px;
+    border-radius: 5%;
+}
+.mini:hover{
+    border: 1px #000 dotted;
+}
+.foto{
+    width: 500px;
+    margin: 30px;
+    box-shadow: 15px 15px 10px dimgray;
+}
+table{
+    border: 1px #000 dashed;
+}
+small{
+    margin: auto;
+}
